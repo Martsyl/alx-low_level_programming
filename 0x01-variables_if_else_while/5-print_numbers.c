@@ -9,7 +9,6 @@ int main(void)
 	int numbase;
 
 	for (numbase = 0; numbase < 10; numbase++)
-		printf("%d", numbase);
-	printf('\n');
+		printf("%d \n", numbase);
 	return (0);
 }

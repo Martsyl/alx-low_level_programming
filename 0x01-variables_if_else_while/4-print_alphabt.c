@@ -8,7 +8,7 @@ int main(void)
 {
 	char avoidEQ;
 
-	for (avoidEQ = 'a'; avoidEQ <= 'z' avoidEQ++)
+	for (avoidEQ = 'a'; avoidEQ <= 'z'; avoidEQ++)
 	{
 		if (avoidEQ != 'e' && avoidEQ != 'q')
 			putchar(avoidEQ);

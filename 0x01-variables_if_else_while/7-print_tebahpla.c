@@ -10,6 +10,6 @@ int main(void)
 
 	for (aplh = 'z'; aplh >= 'a'; aplh--)
 		putchar(aplh);
-	putchar('\n');
+	putchar("\n");
 	return (0);
 }

@@ -5,7 +5,7 @@
  * Description: Does my stuff explained.
  * Return: Always 0 (Success)
  */
-void print_loweralpha(void)
+void print_alphabet(void)
 {
 	char lw;
 

@@ -10,7 +10,7 @@ void print_most_numbers(void)
 
 	for (c =  48; c < 58; c++)
 	{
-		if (c == 5)
+		if (c == 50)
 		{
 			continue;
 		}

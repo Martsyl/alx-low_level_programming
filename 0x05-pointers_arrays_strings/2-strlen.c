@@ -2,8 +2,8 @@
 #include <string.h>
 /**
  * _strlen - check the code
- * @a: integer
- * Return: Always 0.
+ * @s: char
+ * Return: Always length.
  */
 int _strlen(char *s)
 {
@@ -14,5 +14,5 @@ int _strlen(char *s)
 		length++;
 		s++;
 	}
-	return(length);
+	return (length);
 }

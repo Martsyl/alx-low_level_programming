@@ -4,7 +4,7 @@
  * _strcpy - check the code
  *@dest: destiny
  *@src: source
- * Return: Always 0.
+ * Return: Always string
  */
 char *_strcpy(char *dest, char *src)
 {

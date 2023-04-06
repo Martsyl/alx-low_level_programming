@@ -16,9 +16,8 @@ int _sqrt_recursion(int n)
 }
 /**
  * _sqrt_check - check the code
- * @x:integer
- * @g:integer
- * @s:integer
+ * @m:integer
+ * @m2:integer
  * Return: Always 0.
  */
 int _sqrt_check(int m, int m2)
@@ -31,5 +30,5 @@ int _sqrt_check(int m, int m2)
 	{
 		return (m2);
 	}
-	return (_sqrt_check(m, m2 + 1)); 
+	return (_sqrt_check(m, m2 + 1));
 }

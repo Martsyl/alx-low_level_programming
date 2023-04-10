@@ -23,8 +23,8 @@ int _atoi(char *str)
 
 /**
  * main - Entry point
- * @agrc: int
- * @agrv: `char
+ * @argc: int
+ * @argv: char
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
@@ -32,8 +32,8 @@ int main(int argc, char *argv[])
 	int result;
 	int num0;
 	int num1;
-	
-	if ( argc < 3 || argc > 3)
+
+	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);

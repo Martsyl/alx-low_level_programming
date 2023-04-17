@@ -25,4 +25,5 @@ dog_t *new_doggy(char *name, float age, char *owner);
 int _stringlen(char *s);
 char *_stringcopy(char *dest, char *src);
 dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 #endif

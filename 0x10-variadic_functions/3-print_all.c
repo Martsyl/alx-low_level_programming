@@ -10,13 +10,13 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *s, *comma = "";
+	char *st, *comma = "";
 	va_list pr;
 
 	va_start(pr, format);
 	if (format)
 	{
-		while (format[i])
+		while (format != NULL && format[i] != '\0')
 		{
 			switch (format[i])
 			{
@@ -30,19 +30,17 @@ void print_all(const char * const format, ...)
 					printf("%s%f", comma, va_arg(pr, double));
 					break;
 				case 'S':
-					s = va_arg(pr, char*);
-					if (!s)
-					{
-						s = "(nil)";
-						printf("%s%s", comma, s);
-					}
+					st = va_arg(pr, char *);
+					if (st == NULL)
+						st = "(nil)";
+					printf("%s%s", comma, st);
 					break;
 				default:
 					i++;
 					continue;
 
 			}
-			comma = ",";
+			comma = ", ";
 			i++;
 		}
 	}

@@ -24,3 +24,4 @@ int *array_range(int min, int max)
 		arr_range[i] = min;
 	return (arr_range);
 }
+
